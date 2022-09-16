@@ -1,0 +1,147 @@
+html {
+
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after
+{
+box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+a {text-decoration: none;
+        }
+ul {list-style-type: none;
+
+}
+
+ul, h1, h2, h3, p {
+margin: 0px;
+padding: 0px;
+}
+
+:root {
+ --brand-color:#555555;
+ --secodary-color:#9DA4BD;
+}
+
+.container {
+margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1200px;
+    align-items: center;
+}
+
+
+/* хедер */
+
+.list-head {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.tel {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.follow {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: #303030;
+}
+
+/* hero */
+
+.follow {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: #303030;
+}
+
+h1{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: #303030;
+}
+
+.hero-title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 1.13;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.hero-text {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+
+}
+
+.hero-menu {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: right;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
