@@ -46,6 +46,12 @@ margin-left: auto;
     padding-left: 15px;
     width: 1200px;
     align-items: center;
+    display: flex;
+}
+
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 
@@ -144,4 +150,56 @@ line-height: 1.36;
 text-align: right;
 letter-spacing: 0.1em;
 color: #FFFFFF;
+}
+
+/*about*/
+
+.header-about {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #303030;
+}
+
+.best {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.about-first {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+.about-second {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.85;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+.button-booking {
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #303030;
+border: 1px solid #FF6C00;
+border-radius: 25px;
+padding: 12px 20px;
 }
