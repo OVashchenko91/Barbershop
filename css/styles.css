@@ -203,3 +203,252 @@ border: 1px solid #FF6C00;
 border-radius: 25px;
 padding: 12px 20px;
 }
+
+
+/* price */
+
+.price-header {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.6);
+
+}
+
+.price {
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+
+}
+
+.list {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+/* customer */
+
+.customer {
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.35;
+text-align: center;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.customer-list {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: center;
+color: #303030;
+}
+
+sup {
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.37;
+text-align: center;
+color: #FF6C00;
+}
+
+.paragraph-customer {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #303030;
+}
+
+.header-customer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #303030;
+}
+.item-customer {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+/* barbers */
+
+.header-barbers {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #303030;
+}
+
+.list-barbers{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.name-barbers {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.38;
+text-align: center;
+letter-spacing: 0.02em;
+color: #303030;
+}
+
+.position {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.35;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FF6C00;
+}
+
+/* portfolio*/
+
+.header-portfolio {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #303030;
+
+}
+
+
+/* Online-booking Section*/
+
+
+.booking {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.button-send {
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+text-align: center;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+border: 1px solid #FF6C00;
+border-radius: 25px;
+}
+
+/* contact section */
+
+.header-contact{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.16;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.adress{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.tel {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+.mail {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+text-decoration-line: underline;
+color: #9DA4BD;
+}
+
+.hours {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.time {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.66;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+
+/*footer*/
+
+.copy {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: #9DA4BD;
+
+}
+
+.youtube {
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: #303030;
+
+}
