@@ -44,6 +44,7 @@ margin: 0 auto;
 padding-right: 15px;
 padding-left: 15px;
 width: 1200px;
+border: #000000;
 
 
 }
@@ -66,7 +67,8 @@ position: absolute;
 width: 100%;
 }
 .header-list {
-display: inline-flex;
+display: flex;
+
 }
 
 .list-head {
@@ -78,7 +80,9 @@ line-height: 1.33;
 letter-spacing: 0.1em;
 color: #FFFFFF;
 }
-
+.head-list:not(:first-child) {
+margin-left: 30px;
+}
 .tel-header {
 font-family: 'Open Sans';
 font-style: normal;
@@ -88,11 +92,15 @@ line-height: 1.33;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #FFFFFF;
+
 }
 
 .header-logo {
-margin-right: 130px;
-display: block;
+width: 70px;
+    height: 60px;
+    fill: rgba(48, 48, 48, 1);
+    display: block;
+    margin-right: 130px;
 }
 
 .button-header{
@@ -103,9 +111,13 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.09em;
 text-transform: uppercase;
-color: #FFFFFF;
 border: 1px solid #FF6C00;
 border-radius: 25px;
+margin-right: 20px;
+margin-left: 40px;
+background: none;
+color: #FFFFFF;
+padding: 12px 20px;
 }
 
 .follow {
@@ -119,6 +131,8 @@ color: #303030;
 }
 .contacts-wrap{
 margin-left: auto;
+
+
 }
 .image {
 max-width: 1070px;
@@ -203,6 +217,11 @@ padding: 272px 0 208px 100px;
   background-repeat: no-repeat;
   background-size: cover;
   flex-grow: 1;
+}
+
+.hero-social{
+display: inline-flex;
+flex-direction: row-reverse;
 }
 
 
