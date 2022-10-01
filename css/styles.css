@@ -242,6 +242,7 @@ margin-right: 20px;
 margin-left: 64px;}
 
 
+
 /*about*/
 .foto-wrapper {
 display: flex;
@@ -309,19 +310,53 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.09em;
 text-transform: uppercase;
-color: #303030;
 border: 1px solid #FF6C00;
 border-radius: 25px;
 padding: 12px 20px;
+background: none;
+color: #303030;
+
 }
 
 
 /* price */
 
-.price-wrapper{
+.list-wrapper {
+display: flex;
+margin-bottom: 44px;
+
+}
+
+.section-prise{
 background-image: linear-gradient( 
 rgba(17, 19, 25, 0.4),
       rgba(25, 28, 38, 0.9)), url(../images/img-prise.jpg);
+max-width: 1920px;
+margin: 0 auto;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 120px 0;
+
+
+}
+.prices-item {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.price-list {
+width: calc((100%-30px) / 2);
+padding: 30px 20px;
+
+}
+.price-list:first-child {
+  margin-right: 30px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+
+.price-list:last-child {
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
 }
 
 .price-header {
@@ -331,6 +366,7 @@ font-size: 11px;
 line-height: 1.36;
 text-transform: uppercase;
 color: rgba(157, 164, 189, 0.6);
+margin-bottom: 20px;
 
 }
 
@@ -341,6 +377,7 @@ font-size: 42px;
 line-height: 1.16;
 letter-spacing: 0.05em;
 color: #FFFFFF;
+margin-bottom: 44px;
 
 }
 
@@ -351,6 +388,21 @@ font-size: 18px;
 line-height: 1.66;
 letter-spacing: 0.02em;
 color: #9DA4BD;
+}
+.button-price {
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+border: 1px solid #FF6C00;
+border-radius: 25px;
+padding: 12px 20px;
+background: none;
+color: #FFFFFF;
+display: inline-block;
+text-align: center;
 }
 
 /* customer */
