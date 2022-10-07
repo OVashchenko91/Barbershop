@@ -879,6 +879,7 @@ background-image: url(../images/Bg.png);
 background-size: 50%;
 background-repeat: no-repeat;
 background-position: right;
+position: relative;
 }
 .container {
 margin: 0 auto;
@@ -933,6 +934,22 @@ background:#FF6C00;
 
 /* contact section */
 
+.wrap-contact {
+margin-left: 100px;
+}
+.adress-link {
+margin-bottom: 20px;
+display: flex;
+}
+
+.tel-link {
+margin-bottom: 20px;
+display: flex;
+}
+.mail-link {
+margin-bottom: 70px;
+display: flex;
+}
 .header-contact{
 font-family: 'Raleway';
 font-style: normal;
@@ -941,6 +958,8 @@ font-size: 42px;
 line-height: 1.16;
 letter-spacing: 0.05em;
 color: #FFFFFF;
+margin-bottom: 40px;
+
 }
 
 .adress{
@@ -950,6 +969,16 @@ font-size: 18px;
 line-height: 1.66;
 letter-spacing: 0.02em;
 color: #9DA4BD;
+
+display: flex;
+align-items: center;
+
+}
+.adress-icon {
+width: 24px;
+height: 24px;
+margin-right: 25px;
+
 }
 
 .tel {
@@ -959,6 +988,9 @@ font-size: 18px;
 line-height: 1.66;
 letter-spacing: 0.02em;
 color: #9DA4BD;
+
+display: flex;
+align-items: center;
 }
 
 .mail {
@@ -969,6 +1001,9 @@ line-height: 1.66;
 letter-spacing: 0.02em;
 text-decoration-line: underline;
 color: #9DA4BD;
+
+display: flex;
+align-items: center;
 }
 
 .hours {
@@ -978,6 +1013,17 @@ font-size: 11px;
 line-height: 1.36;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+
+.hours::before{
+content: "";
+width: 60px;
+height: 1px;
+background: rgba(157, 164, 189, 0.4);
+margin-right: 20px;
 }
 
 .time {
@@ -998,7 +1044,19 @@ font-size: 11px;
 line-height: 1.36;
 letter-spacing: 0.2em;
 color: #9DA4BD;
+padding-top: 56px;
+padding-bottom: 56px;
+background-size: 50%;
 
+
+}
+
+.copy-wrap {
+display: flex;
+padding-top: 56px;
+padding-bottom: 56px;
+margin-left: 215px;
+    background-size: 50%;
 }
 
 .youtube {
@@ -1008,5 +1066,36 @@ font-size: 11px;
 line-height: 1.36;
 letter-spacing: 0.2em;
 color: #303030;
+margin-right: 40px;
+display: flex;
+
+
+}
+
+.after-footer {
+  display: inline-flex;
+  justify-content: end;
+  align-items: center;
+
+
+}
+.wrap-after-footer{
+display: flex;
+justify-content: end;
+padding-top: 56px;
+padding-bottom: 56px;
+    background-size: 50%;
+}
+.link-youtube{
+margin-right: 215px;
+}
+
+.after-footer::before {
+content: "";
+width: 60px;
+height: 1px;
+background: rgba(48, 48, 48, 1);
+display: flex;
+margin-right: 40px;
 
 }
